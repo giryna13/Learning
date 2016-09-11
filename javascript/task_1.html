@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <title>Task 1</title>
+
+</head>
+<body>
+      <div id="frame">
+      	<div id="header">Готовы к поиску нового дома?</div>
+      	<div id="left">
+      	</div>
+
+      	<form name="orderform" action="..." method="POST">
+      		<div class="field">Укажите ваш годовой доход:
+      			<input id="income" type="text" size="12"
+      			onblur="validateNumber (this.value)"/>
+      		</div>
+      		<div class="field">Введите число спален:
+      			<input id="bedroom" type="text" size="6"
+      			onblur="validateNumber (this.value)"/>
+      		</div>
+      		<div class="field">Введите индекс:
+      			<input id="zip" type="text" size="10"
+      			onblur="validateZIPCode (this.value)"/>
+      		</div>
+                  <input type="button" value="Вычислите цену" onclick="calcPrice();" /> 
+      		<input type="button" value="Купить дом" onclick="findHouses (this.form);"/>
+      	</form>
+
+      </div>
+  
+    <script src="js/task_1.js"></script>
+</body>
+</html>

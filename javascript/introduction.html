@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <title>Introduction page</title>
+
+</head>
+<body>
+	
+	<h1>What Can JavaScript Do?</h1>
+
+	<p id="demo">JavaScript can change HTML content.</p>
+    
+	<button type="button" onclick="document.getElementById('demo').innerHTML = 'Hello JavaScript!'">Click Me!</button>
+
+	<p>JavaScript can change images</p>
+
+	<img id="myImage" onclick="changeImage()" src="images/bulb_of.jpg" width="100" height="100">
+
+	<p>Click the bulb to turn on/off the light</p>
+
+	<p id="style">JavaScript can change the style of an HTML element.</p>
+
+	<button type="button" onclick="changeStyle()">Click me to Change Style!</button>
+
+	<h1>JavaScript Can Validate Input</h1>
+
+	<p>Please input a number between 1 and 10:</p>
+
+	<input id="numb">
+
+	<button type="button" onclick='myFunction()'>Submit</button>
+
+	<p id="demone"></p>
+
+	<script src="js/introduction.js"></script>
+    
+  
+    
+</body>
+</html>
