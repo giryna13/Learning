@@ -1,0 +1,29 @@
+h1 {
+	color: purple;
+	border-bottom: 2px solid purple;
+	padding-bottom: 10px;
+}
+
+table {
+	width: 50%;
+}
+
+table, th, td {
+	border: 1px solid purple;
+	border-collapse: collapse;
+	padding: 5px;
+}
+
+th {
+	font-size: 20px;
+	text-align: center;
+}
+
+td {
+	font-size: 20px;
+	pa
+}
+
+.td {
+	background-color: #f0f0f0;
+}

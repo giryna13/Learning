@@ -1,0 +1,10 @@
+div {
+	width: 100%;
+	height: 1000px;
+	box-shadow: inset 0 0 6px;
+	background: url("./../images/android_vector.jpg");
+	 
+}
+h1 {
+	color: red;
+}
