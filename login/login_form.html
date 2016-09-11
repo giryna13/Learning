@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <title>Test page</title>
+
+</head>
+<body>
+    <form action="login_script.php" method="post" novalidate>
+        First name:<br>
+        <input type="text" name="firstname" placeholder="Enter first name" required autofocus>
+        <span class="error">*<?php echo $nameErr;?></span><br>
+        
+        Last name:<br>
+        <input type="text" name="lastname"><br>
+        <input type="radio" name="sex" value="male" checked>
+
+        Gender<br>
+        <input type="radio" name="sex" value="female">FeMale<br>
+        <input id="rem" type="checkbox" name="remember" value="true"><label for="rem">Remember?</label><br>
+        <span class="error">*<?php echo $genderErr;?></span><br>  
+
+        E-mail:<br>
+        <input type="text" name="email">
+        <span class="error">*<?php echo $emailErr;?></span><br>
+        
+        Website:<br>
+        <input type="text" name="website">
+        <span class="error">*<?php echo $websiteErr;?></span><br>
+        
+        <select name="cars" disabled>
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="fiat">Fiat</option>
+        <option value="audi">Audi</option>
+        </select><br>
+
+        Comment:<br>
+        <textarea name="comment" rows="10" cols="30"></textarea><br>
+
+        <input list="browsers" name="browsers">
+        <datalist id="browsers">
+          <option value="Internet Explorer">
+          <option value="Firefox">
+          <option value="Chrome">
+          <option value="Opera">
+          <option value="Safari">
+        </datalist><br> 
+
+        <input type="submit" value="Submit">
+        <button type="button" onclick="alert('Hello World!')">Click Me!</button>
+
+
+    </form>
+</body>
+</html>

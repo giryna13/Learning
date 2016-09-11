@@ -1,0 +1,13 @@
+body {
+	text-align: center;
+	color: red; 
+}
+
+.form {
+	border-style: outset;
+	border-color: green;
+	border-width: 10px;
+	padding: 50px;
+	margin-left: 200px;
+	margin-right: 200px;
+}
