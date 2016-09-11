@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="./css/phrase_of_surprise.css"?>
+	<SENTENCE>
+		
+		<PHRASE>
+			<RU>Я не верю своим глазам!</RU>
+			<EN>My eyes must be deceiving me!</EN>
+		</PHRASE>
+
+		<PHRASE>
+			<RU>Я должно быть сплю.</RU>
+			<EN>I must be dreaming.</EN>
+		</PHRASE>
+
+		<PHRASE>
+			<RU>Это невозможно!</RU>
+			<EN>It can't be true.</EN>
+		</PHRASE>
+
+		<PHRASE>
+			<RU>Ты должно быть шутишь!</RU>
+			<EN>You must be kidding!</EN>
+		</PHRASE>
+
+		<PHRASE>
+			<RU>Вот это сюрприз!</RU>
+			<EN>What a surprise!</EN>
+		</PHRASE>
+
+		<PHRASE>
+			<RU>Боже мой!</RU>
+			<EN>Oh, my God!</EN>
+		</PHRASE>
+
+		<PHRASE>
+			<RU>Черт побери!</RU>
+			<EN>Gosh!</EN>
+		</PHRASE>
+
+		<PHRASE>
+			<RU>Да что же это такое?</RU>
+			<EN>What the hell is that?</EN>
+		</PHRASE>
+
+		<PHRASE>
+			<RU>Что ты несёшь?</RU>
+			<EN>What on earth are you talking about?</EN>
+		</PHRASE>
+
+	</SENTENCE>

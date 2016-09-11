@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="./css/cd_catalog.css"?>
+<library>
+	<book>
+		<title>An Apple</title>
+		<author>Bob Dilan</author>
+		<pages>56</pages>
+		<year>1567</year>
+		<publisher>USA</publisher>
+		<price>20</price>
+	</book>
+	<book>
+		<title>A Juice</title>
+		<author>Bred Coin</author>
+		<pages>12</pages>
+		<year>1345</year>
+		<publisher>UK</publisher>
+		<price>67</price>
+	</book>
+	<book>
+		<title>A pig</title>
+		<author>Candy Wood</author>
+		<pages>82</pages>
+		<year>1646</year>
+		<publisher>Toronto</publisher>
+		<price>65</price>
+	</book>
+</library>
