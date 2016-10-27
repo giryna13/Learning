@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+       
+	<!--The X-UA compatible tag - This is a special tag that lets Internet Explorer know which versions engine to render the page with. By specifying edge here, we're saying that we want the latest and greatest rendering engine. This is considered a best practice.-->
+    <meta http-equiv="X-UA-Compatible" content="IE-edge"> 
+       
+    <!--Це мета тег для того щоб розмір сторінки відображався правильно на будь-яких девайсах-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!--This is the link to the max CDN website which has all the default Bootstrap styles in a minified form, so that it's as small as possible.--><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+
+    <!--My own css file-->
+    <link rel="stylesheet" href="css/header.css">
+
+    <title>Fluid Width Container</title>
+</head>
+<body>
+
+    <header class="bgimage">
+        <div class="container">
+            <h1>Header</h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>Headline</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.</p>    
+    </div>
+
+    <div class="container-fluid">
+        <h1>Headline</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.</p>    
+    </div>
+    
+
+    <!--jQuery link для того щоб працювали каруселі і моделі які включає Bootstrap-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!--My own js file-->
+    <!--<script src="js/nameoffile.js"></script>-->
+    
+</body>
+</html>
