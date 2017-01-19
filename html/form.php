@@ -12,15 +12,15 @@
     	<p>* required field</p>
     	<div>
     		<label for="name">Name:</label>
-    		<input id="name" name="name" type="text" required autofocus><span>*</span>
+    		<input id="name" name="name" type="text" required autofocus /><span>*</span>
      	</div>
      	<div>
     		<label for="email">E-mail:</label>
-    		<input id="email" name="email" type="email" required><span>*</span>
+    		<input id="email" name="email" type="email" required /><span>*</span>
     	</div>
     	<div>
     		<label for="website">Website:</label>
-    		<input id="website" name="website" type="url">
+    		<input id="website" name="website" type="url" />
     	</div>
     	<div>
     		<label for="comment">Comment:</label>
@@ -28,9 +28,9 @@
     	</div>
     	<div>
     		<label for="female">Gender:</label>
-    		<input id="female" name="gender" type="radio" value="female" required>
+    		<input id="female" name="gender" type="radio" value="female" required />
     		<label for="female">Female</label>
-    		<input id="male" name="gender" type="radio" value="male" required>
+    		<input id="male" name="gender" type="radio" value="male" required />
     		<label for="male">Male</label><span>*</span>
     	</div>
     	<div>
