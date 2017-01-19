@@ -5,7 +5,7 @@ console.log(firstDie);
 console.log(secondDie);
 console.log(firstDie + secondDie);
 
-//замість дублювання рядків краще написати так:
+//замість дублювання рядків краще написати через функцію, яку можна буде потім використати в іншій програмі:
 
 var getDieRoll = function() {
   return Math.ceil(6 * Math.random());
